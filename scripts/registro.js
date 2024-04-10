@@ -11,9 +11,9 @@ function registerUser(event) {
 
     var userDataJson = JSON.parse(localStorage.getItem("userData")) || {}; // Inicializar userDataJson con un objeto vacío si no hay datos en localStorage
 
-    // Verificar si el usuario ya está registrado
+    // Verificar si el usuario ya está registrado, de ser asi, no podra registrarse nuevamente
     if (userDataJson.hasOwnProperty(usuario)) {
-        event.preventDefault(); // Detener el comportamiento predeterminado del botón de envío
+        event.preventDefault();
         alert("El usuario ya existe.");
         return;
     }
