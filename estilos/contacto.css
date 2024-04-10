@@ -1,0 +1,75 @@
+body {
+    background-image: url(../imagenes/fondoRegistro.png);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+h2.title {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: left;
+    /* Alineación justificada hacia la izquierda */
+    margin-bottom: 20px;
+}
+
+h2.text-center {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: left;
+    /* Alineación justificada hacia la izquierda */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+#contacto {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
