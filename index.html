@@ -10,14 +10,17 @@
 
 <body>
     <header class="container">
+        <!--  Esta seccion es la que se visualiza en la parte superior de la pagina de inicio  -->
         <div class="row">
+            <!--  El logo se ubica en la parte izquierda  -->
             <h1 class="col-sm-8"><img src="imagenes/logo.png" width="75px" height="75px"></h1>
+            <!--  Los diferentes botones se ubican en la parte derecha  -->
             <nav class="col-sm-4">
                 <button class="btn btn-primary"
                     onclick="window.location.href='paginas/registro/registro.html'">Registro</button>
                 <button class="btn btn-primary"
                     onclick="window.location.href='paginas/registro/login.html'">Login</button>
-                    <button class="btn btn-primary"
+                <button class="btn btn-primary"
                     onclick="window.location.href='paginas/varios/contacto.html'">Contacto</button>
             </nav>
         </div>
@@ -29,7 +32,7 @@
                     <h2>DESCUBRE LA NUEVA FORMA DE CONOCER AL INDICADO PARA TU SALUD</h2>
                     <br>
 
-                    <!-- Este es el modal que se va a mostrar cuando se sleecciona el boton "Conoce mas"-->
+                    <!-- Este es el modal que se va a mostrar cuando se selecciona el boton "Conoce mas"-->
                     <div class="modal fade" id="myModal" role="dialog">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -53,13 +56,14 @@
                                     </p>
                                 </div>
                                 <div class="modal-footer">
+                                    <!--  Se cierra el modal con este boton  -->
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
+                    <!--  Los tags como data-toggle son los que permiten que se genere un model, data-target indica con que objeto se iniciaria el model  -->
                     <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#myModal">Conoce Mas</a>
                 </div>
                 <div class="col-md-6">

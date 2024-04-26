@@ -1,5 +1,6 @@
 
 function registerUser(event) {
+    // Se guardan en variable la informacion de cada input para poder darle manejo
     var usuario = document.getElementById("usuario").value;
     var email = document.getElementById("email").value;
     var nombre = document.getElementById("nombre").value;

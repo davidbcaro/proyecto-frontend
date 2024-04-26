@@ -3,6 +3,7 @@ function loginUser(event) {
     var usuario = document.getElementById("usuario").value;
     var contraseña = document.getElementById("contraseña").value;
 
+    //Busca en localStorage la variable userData, ya que en esta se almacenan los usuarios guardados
     var userDataJson = JSON.parse(localStorage.getItem("userData")) || {}; // Inicializar userDataJson con un objeto vacío si no hay datos en localStorage
 
     // Verificar si el usuario ya está existe
